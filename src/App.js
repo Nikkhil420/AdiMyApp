@@ -1,25 +1,25 @@
-import logo from './logo.svg';
+
 import './App.css';
+import Add from './Component/Add/Add';
+import Div from './Component/Div/Div';
+import Multi from './Component/Multi/Multi';
+import Sub from './Component/Sub/Sub';
 
 function App() {
+  
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+
+    <div>
+
+   <Add a = '5' b = '5' />
+
+   <Sub a = '5' b = '5'/>
+   <Div a = '5' b = '5'/>
+   <Multi a = '5' b = '5'/>
+
     </div>
-  );
+
+  )
 }
 
 export default App;
